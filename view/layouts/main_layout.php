@@ -12,6 +12,6 @@
   </style>
 </head>
 <body>
-  <?= require_once($content); ?>
+<?php require_once $content; ?>
 </body>
 </html>

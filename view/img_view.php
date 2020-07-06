@@ -1,5 +1,5 @@
 <?php
-  $img = $imgs_arr[random_int(0, 20)-1];
+  $img = $imgs_arr[random_int(0, count($imgs_arr)-1)];
 ?>
 <img class="widget" src="pics/<?=$img;?>" alt=""/>
 

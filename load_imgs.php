@@ -1,6 +1,6 @@
 <?php
 $access_key = getenv('UNSPLASH_PUBLIC_KEY');
-$url = "https://api.unsplash.com/search/photos/?count=20&client_id={$access_key}&query=Sri%20Lanka";
+$url = "https://api.unsplash.com/search/photos/?per_page=20&client_id={$access_key}&query=Sri%20Lanka";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $res = curl_exec($ch);

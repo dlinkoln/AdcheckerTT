@@ -2,7 +2,7 @@
 // Корневая директория сата:
 define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT']);
 // Путь к директории проекта от корня сайта:
-define('APP_DIR', 'ad2x');
+define('APP_DIR', getenv("APP_DIR") ? getenv("APP_DIR") : "");
 // УРЛ сайта:
 define('SITE_URL', $_SERVER['HTTP_HOST']);
 
