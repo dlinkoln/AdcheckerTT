@@ -1,5 +1,5 @@
 <?php
-ini_set('display_errors', "on");
+ini_set('display_errors', "off");
 require_once "config.php";
 require_once("db_config.php");
 require_once "messages.php";
